@@ -1,0 +1,129 @@
+body {
+    font-family: 'Roboto Slab', sans-serif;
+    background-color: #333;
+    color: white;
+  }
+  h1,
+  h2,
+  h3 {
+    color: orange;
+  }
+  
+  h1 {
+    font-size: 3em;
+    text-transform: uppercase;
+    text-align: center;
+    transition: 1s;
+    border: orange dotted 3px;
+    width: 50%;
+    margin: 1em auto ;
+    padding: 0.5em;
+  
+  }
+  
+  h2 {
+    font-size: 1.6em;
+    margin-top: 0.625rem;
+  }
+  
+  h3 {
+    margin-top: 0.625rem;
+  }
+  
+  h1:hover {
+    transform: scale(1.5);
+  }
+  
+  nav {
+    background: linear-gradient(#333, #999, #444);
+    text-align: center;
+  }
+  
+  nav ul li {
+    display: inline-block;
+    margin: 0 0.2em;
+  }
+  
+  nav ul li a {
+    display: block;
+    padding: 1em 2em;
+  }
+  
+  nav ul li a:hover {
+    color: black;
+    background: linear-gradient(#333, orange, #444);
+  }
+  
+  main {
+    background-color: #444;
+    padding: 1em;
+  }
+  
+  main > section {
+    max-width: 600px;
+    margin-top: 2em;
+  }
+  
+  main p,
+  main ul {
+    margin: 1em 0;
+    line-height: 1.5;
+  }
+  
+  footer {
+    margin: 1em 0;
+    text-align: center;
+  }
+  
+  table{
+    border: 1px solid whitesmoke;
+    padding: 1em;
+    margin: auto;
+  }
+  th, td{
+    border: 1px solid whitesmoke;
+    padding: 0.5em 1em ;
+    text-align: center;
+  }
+  main{
+    width: 100%;
+    margin: auto;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+  main section{
+    border: orange dotted 3px;
+  
+    padding: 1em;
+    text-align: center;
+    width: auto;
+  }
+  #tarifs table{
+    margin: 1em auto;
+  }
+  
+  .horaires  ul  li{
+    font-size: 2em;
+    width: 100%;
+  }
+  img{
+    display: block;
+    height: 30em;
+  }
+  img:hover{
+    transform: scale(2);
+    transition-duration: 0.3s;
+  }
+  a:hover{
+    background-color: orange;
+    color: #333;
+  }
+  
+  #liste_films img {
+    width: 50%;
+    height: auto;
+    margin: 0.5rem auto;
+  }
+  
